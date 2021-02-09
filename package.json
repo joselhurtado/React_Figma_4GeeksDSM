@@ -21,8 +21,8 @@
   "license": "ISC",
   "dependencies": {
     "@figma/plugin-typings": "^1.16.1",
-    "react": "^16.9.0",
-    "react-figma": "latest"
+    "react": "^16.14.0",
+    "react-figma": "^0.5.2"
   },
   "devDependencies": {
     "html-webpack-inline-source-plugin": "^0.0.10",
