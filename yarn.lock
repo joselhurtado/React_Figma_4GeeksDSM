@@ -777,7 +777,7 @@ color-name@^1.0.0:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-color-parse@^1.3.8:
+color-parse@1.3.8:
   version "1.3.8"
   resolved "https://registry.yarnpkg.com/color-parse/-/color-parse-1.3.8.tgz#eaf54cd385cb34c0681f18c218aca38478082fa3"
   integrity sha512-1Y79qFv0n1xair3lNMTNeoFvmc3nirMVBij24zbs1f13+7fPpQClMg5b4AuKXLt3szj7BRlHMCXHplkce6XlmA==
@@ -2176,10 +2176,10 @@ nan@^2.12.1:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.1.tgz#d7be34dfa3105b91494c3147089315eff8874b01"
   integrity sha512-isWHgVjnFjh2x2yuJ/tj3JbwoHu3UC2dX5G/88Cm24yB6YopVgxvBObDY7n5xW6ExmFhJpSEQqFPvq9zaXc8Jw==
 
-nanoid@^2.0.3:
-  version "2.1.11"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-2.1.11.tgz#ec24b8a758d591561531b4176a01e3ab4f0f0280"
-  integrity sha512-s/snB+WGm6uwi0WjsZdaVcuf3KJXlfGl2LcxgwkEwJF0D/BWzVWAZW/XY4bFaiR7s0Jk3FPvlnepg1H1b1UwlA==
+nanoid@3.3.18:
+  version "3.3.18"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.18.tgz#f66a2de1199ffde0fcf21c8a5f13106b1c081913"
+  integrity sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -2612,14 +2612,14 @@ react-figma-webpack-config@latest:
     webpack "^4.41.2"
     webpack-merge "^4.2.2"
 
-react-figma@latest:
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/react-figma/-/react-figma-0.1.13.tgz#061774e1ae0be17c4c8af9967bf5634e8266f341"
-  integrity sha512-Rk2vUaZzlIOIxPdMHDGFaEM9vXLQfTgpKwnEnwZppULbMCSdHELecwwKEsrKt+pSmahz2Bbowpwtztw17a7pgQ==
+react-figma@^0.32.0:
+  version "0.32.0"
+  resolved "https://registry.yarnpkg.com/react-figma/-/react-figma-0.32.0.tgz#cb3ee960f0c1558e10adf04c180a705bc556ad01"
+  integrity sha512-3PAXFmcqV0cYSbFzJBo9UiWsHVrTKfnh6D3NGXZxv/c41EGOSSqfiPCRJ179w0+ver9ubuj6LW9Wl07rhY2cUw==
   dependencies:
-    color-parse "^1.3.8"
+    color-parse "1.3.8"
     figma-jsonrpc "^0.4.0"
-    nanoid "^2.0.3"
+    nanoid "3.3.18"
     react-devtools-core "^4.7.0"
     react-fetch-hook "1.7.2"
     react-reconciler "^0.23.0"
@@ -2642,10 +2642,10 @@ react-reconciler@^0.23.0:
     prop-types "^15.6.2"
     scheduler "^0.17.0"
 
-react@^16.9.0:
-  version "16.9.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.9.0.tgz#40ba2f9af13bc1a38d75dbf2f4359a5185c4f7aa"
-  integrity sha512-+7LQnFBwkiw+BobzOF6N//BdoNw0ouwmSJTEm9cglOOmsg/TMiFHZLe2sEoN5M7LgJTj9oHH0gxklfnQe66S1w==
+react@^16.14.0:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
