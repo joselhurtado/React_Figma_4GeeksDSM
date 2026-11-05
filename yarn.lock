@@ -777,7 +777,7 @@ color-name@^1.0.0:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-color-parse@^1.3.8:
+color-parse@1.3.8:
   version "1.3.8"
   resolved "https://registry.yarnpkg.com/color-parse/-/color-parse-1.3.8.tgz#eaf54cd385cb34c0681f18c218aca38478082fa3"
   integrity sha512-1Y79qFv0n1xair3lNMTNeoFvmc3nirMVBij24zbs1f13+7fPpQClMg5b4AuKXLt3szj7BRlHMCXHplkce6XlmA==
@@ -2612,12 +2612,12 @@ react-figma-webpack-config@latest:
     webpack "^4.41.2"
     webpack-merge "^4.2.2"
 
-react-figma@latest:
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/react-figma/-/react-figma-0.1.13.tgz#061774e1ae0be17c4c8af9967bf5634e8266f341"
-  integrity sha512-Rk2vUaZzlIOIxPdMHDGFaEM9vXLQfTgpKwnEnwZppULbMCSdHELecwwKEsrKt+pSmahz2Bbowpwtztw17a7pgQ==
+react-figma@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/react-figma/-/react-figma-0.5.2.tgz#a3cf0f31ff42578dea0339552b4b9f1b735e70fd"
+  integrity sha512-Ewq2cppEJNW5Un8cK31cwBCIuPpWDGsVj+oS50vfHnDhmDZDQRr3G35ZRjSuazB8NClxkFwvDrHjNVeipnBt3w==
   dependencies:
-    color-parse "^1.3.8"
+    color-parse "1.3.8"
     figma-jsonrpc "^0.4.0"
     nanoid "^2.0.3"
     react-devtools-core "^4.7.0"
@@ -2642,10 +2642,10 @@ react-reconciler@^0.23.0:
     prop-types "^15.6.2"
     scheduler "^0.17.0"
 
-react@^16.9.0:
-  version "16.9.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.9.0.tgz#40ba2f9af13bc1a38d75dbf2f4359a5185c4f7aa"
-  integrity sha512-+7LQnFBwkiw+BobzOF6N//BdoNw0ouwmSJTEm9cglOOmsg/TMiFHZLe2sEoN5M7LgJTj9oHH0gxklfnQe66S1w==
+react@^16.14.0:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -3518,9 +3518,9 @@ wrappy@1:
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
 ws@^7:
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.3.1.tgz#d0547bf67f7ce4f12a72dfe31262c68d7dc551c8"
-  integrity sha512-D3RuNkynyHmEJIpD2qrgVkc9DQ23OrN/moAwZX4L8DfvszsJxpjQuUq3LMx6HoYji9fbIOBY18XWBsAux1ZZUA==
+  version "7.5.13"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.13.tgz#12aa507eaca76c295c278b1aebf4698ab2c1845f"
+  integrity sha512-rsKI6xDBFVf4r/x8XyChGK04QR/XHroxs/jUcoWvtEZM8TPU/X/uIY9B1CsSzYws9ZJb/6bbBu7dPhFW00CAoA==
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"
